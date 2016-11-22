@@ -60,3 +60,79 @@ Bootstrap排版
 
 引导主体副本
 强调文本，用class="lead"
+
+强调
+<small>
+<strong>
+<em>
+
+缩写
+<abbr title=""></abbr>
+
+地址
+<address>
+
+引用
+<Blockquote>
+
+Bootstrap代码
+<code>标签
+<pre>标签
+<var>变量赋值
+<kbd>按键提示:CTRL+P
+<pre class="pre-scrollable">多行代码带有滚动条
+<spam>电脑程序输出:Smaple output
+
+Bootstrap表格
+<table> 为表格添加基础样式
+<thead> 表格标题行的容器元素(<tr>),用来标识表格列
+<tbody> 表格主体中的表格行的容器元素
+
+<tr>单行
+<td>单元格
+<th>特殊的单元格
+<caption>关于表格存储内容的描述或总结
+
+1 如果你想要一个只带有内边距(padding)和水平分割的基本表,请添加class.table
+2 通过添加.table-striped class ,你将在<tbody>内的行上看到条纹，如下面的实例所示
+
+
+Bootstrap 表单
+表单布局
+Bootstrap 提供了下列类型的表单布局
+1 垂直表单(默认)
+2 内联表单
+3 水平表单
+
+垂直或基本表单
+基本的表单结构是Bootstrap自带的，个别的表单控件自动接受一些全局样式
+
+向父<form>元素添加role="form"
+把标签和控件放在一个带有class.form-group的<div>中。这是获取最佳间距所必须的。
+向所有的文本元素<input> <textarea> <select>添加class.form-control
+
+内联表单
+如果需要创建一个表单，它的所有元素是内联的，向左对齐的，标签是并排的，请向<form>标签中添加class.form-inline
+默认情况下，bootstrap中的input select textarea有100%宽度。在使用内联表单时，您需要在表单上设置一个宽度
+
+class.sr-only可以隐藏内联表单的标签
+
+
+水平表单
+需创建一个水平布局的表单，请按下面的几个步骤进行:
+向父<form>元素添加class.form-horizontal
+
+支持的表单元素
+输入框(Input)
+选择框(Select)
+当你想让用户从多个选项中进行选择
+使用<select>展示列表选项，通常是那些用户很熟悉的选择列表
+使用multiple="multiple"允许用户选择多个选项
+
+静态控件
+当你需要在一个表单内的表单标签后放置纯文本时，请在<p>上使用class.form-control-static
+
+表单控件状态
+输入框焦点 接收到.focus时，输入框的轮廓会被移除，同时应用box-shadow
+禁用 disabled属性
+禁用的字段集fieldset 对<fieldset>添加disabled属性来禁用<fieldset>内的所有控件
