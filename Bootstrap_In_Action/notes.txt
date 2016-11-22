@@ -1,0 +1,13 @@
+第一个firstPage.html页面学习Bootstrap知识要点:
+<head>头文件中需要加入的是：
+<meta> 加入字符编码utf-8
+<meta> 加入name
+<meta name="viewport" content="width=device-width, initial-scale=1"> 设备自适应
+link 加入bootstrap.css文件
+script 加入jquery/js和bootstrap.js
+
+<body>内容：
+class="container" 是bootstrap 主风格的一个容器
+class="jumbotron" 是一个背景为灰色居中的区域
+class="row" 是行控制属性
+class="col-sm-4" 方形区域，但是实践一行放三个 这样的区域
