@@ -136,3 +136,14 @@ class.sr-only可以隐藏内联表单的标签
 输入框焦点 接收到.focus时，输入框的轮廓会被移除，同时应用box-shadow
 禁用 disabled属性
 禁用的字段集fieldset 对<fieldset>添加disabled属性来禁用<fieldset>内的所有控件
+
+验证状态
+Bootstrap包含了错误，警告和成功消息的验证样式。只需要对父元素简单的添加适当的class(.has-warning,.has-error或.has-success)
+
+表单控件大小
+分别使用class .input-lg  和.col-lg-*来设置表单的高度和宽度
+
+表单帮助文本
+Bootstrap表单控件可以在输入框input上有一个块级帮助文档
+<input>后使用.help-block
+
