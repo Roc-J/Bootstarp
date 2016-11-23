@@ -147,3 +147,12 @@ Bootstrap包含了错误，警告和成功消息的验证样式。只需要对�
 Bootstrap表单控件可以在输入框input上有一个块级帮助文档
 <input>后使用.help-block
 
+Bootstrap按钮
+任何带有class.btn的元素都会继承圆角灰色按钮的默认外观。
+基本按钮有: 基本的按钮.btn，默认按钮.btn btn-default,原始样式.btn btn-primary,表示成功.btn btn-success,弹出信息按钮.btn btn-info,谨慎操作.btn btn-warning,危险动作.btn btn-danger,链接按钮.btn btn-link
+
+按钮大小
+.btn-lg 按钮比较大
+.btn-sm 按钮比较小
+.btn-xs 按钮特别小
+.btn-block 这会创建块级的按钮，会横跨父元素的全部宽度
