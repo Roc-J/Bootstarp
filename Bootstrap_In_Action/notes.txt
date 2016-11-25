@@ -168,3 +168,55 @@ disabled
 按钮元素 添加disabled属性到<button>按钮
 锚元素 添加disabled class 到<a>按钮
 
+Bootstrap图片
+Bootstrap提供了三个可对图片应用简单样式的class
+.img-rounded ：添加border-radius：6px来获得圆片圆角
+.img-circle:添加border-radius:50%来让整个图片变成圆形
+.img-thumbnail:添加一些内边距（padding）和一个灰色的边框
+
+Bootstrap辅助类
+文本
+.text-muted 正常黑色
+.text-primary 蓝色
+.text-success
+.text-info
+.text-warning
+.text-danger
+
+
+背景 不同的类展示了不同的背景颜色
+.bg-primary 蓝色
+.bg-success
+.bg-info
+.bg-warning
+.bg-danger
+
+其他
+.pull-left 元素浮动到左边
+.pull-right 元素浮动到右边
+.center-block 设置元素为display:block并居中显示
+.clearfix 清楚浮动 但是我没有看到效果啊
+.show 强制元素显示
+.hidden 强制元素隐藏
+.sr-only 除了屏幕阅读器外，其他设备上隐藏元素
+.text-hidden
+.close
+.caret 显示下拉式功能 我觉得就是有一个下拉式图标啊
+
+
+Bootstrap响应式实用工具
+Bootstrap可以对移动设备友好的开发，这些可以通过媒体查询结合大型，小型，中型设备实现内容对设备的显示和隐藏
+
+Bootstrap字体图标
+css规则解释
+
+用法:如需使用图标，只需要简单的使用下面的代码即可，图标和文本之间保留适当的空间
+<span class="glyphicon glyphicon-search">
+
+导航栏的字形图标
+定制字体尺寸
+通过增加或减少图标的字体尺寸，您可以让图标看起来更大或更小
+
+字体尺寸 font-size
+字体颜色 color
+文本阴影 text-shadow
