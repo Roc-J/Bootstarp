@@ -1,4 +1,4 @@
-第一个firstPage.html页面学习Bootstrap知识要点:
+﻿第一个firstPage.html页面学习Bootstrap知识要点:
 <head>头文件中需要加入的是：
 <meta> 加入字符编码utf-8
 <meta> 加入name
@@ -156,3 +156,15 @@ Bootstrap按钮
 .btn-sm 按钮比较小
 .btn-xs 按钮特别小
 .btn-block 这会创建块级的按钮，会横跨父元素的全部宽度
+
+按钮状态
+Bootstrap提供了激活、禁用等按钮状态的class
+激活状态--按钮在激活时将呈现为被按压的外观（深色的背景、深色的边框、阴影）
+
+禁用状态
+当你禁用一个按钮时，它的颜色会变淡50%，并失去渐变
+disabled
+
+按钮元素 添加disabled属性到<button>按钮
+锚元素 添加disabled class 到<a>按钮
+
