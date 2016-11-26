@@ -220,3 +220,17 @@ css规则解释
 字体尺寸 font-size
 字体颜色 color
 文本阴影 text-shadow
+
+
+Bootstrap下拉菜单(Dropdown)
+使用下拉菜单，只需要在class.dropdown内加上下拉菜单
+通过向.drop-menu添加class .pull-right来向右对齐下拉菜单
+使用class dropdown-header向下拉菜单的标签区域添加标题。下面的实例演示了这点
+
+.dropdown 指定下拉菜单，下拉菜单都包裹在.dropdown里
+.dropdown-menu 创建下拉菜单，在ul的class中
+.dropdown-menu-right 下拉菜单右对齐
+.dropdown-header下拉菜单中添加标题
+.dropup 指定向上弹出的下拉菜单
+.disabled 下拉菜单中的禁用项
+.divider 下拉菜单中的分割线
