@@ -260,3 +260,19 @@ Bootstrap按钮下拉菜单
 分割的按钮下拉菜单
 分割的按钮下拉菜单使用与下拉菜单按钮大致相同，但是对下拉菜单添加了原始的功能。分割按钮的左边是原始的功能，右边是显示下拉菜单的切换。
 
+Bootstrap输入框组
+使用输入框组，你可以很容易的向基于文本的输入框添加作为前缀和后缀的文本或按钮
+
+通过向输入域添加前缀和后缀的内容，您可以向用户输入添加公共的元素
+向.form-control添加前缀或后缀元素的步骤如下：
+把前缀或后缀元素放在一个带有class.input-group的<div>中
+接着，在相同的<div>内，在class为input-group-addon的<span>内放置额外的内容
+把该<span>放置在<input>元素的前面或者后面
+
+
+输入框组的大小
+通过向.input-group添加相对表单大小的class（.input-group-lg,input-group-sm,input-group-xs）
+
+
+
+
