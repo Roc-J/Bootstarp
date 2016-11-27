@@ -234,3 +234,29 @@ Bootstrap下拉菜单(Dropdown)
 .dropup 指定向上弹出的下拉菜单
 .disabled 下拉菜单中的禁用项
 .divider 下拉菜单中的分割线
+
+Bootstrap 按钮组
+按钮组允许多个按钮被堆叠在同一行上。当你想要把按钮对齐在一起时，这就显得非常有用
+
+.btn-group 该class用于形成基本的按钮组，在.btn-group中放置一系列带有class .btn的按钮
+<div class="btn-group">
+
+</div>
+
+.btn-toolbar 该class有助于把几组<div class="btn-group">结合到一个<div class="btn-toolbar">中，一般获得更复杂的组件。
+
+<div class="btn-toolbar">
+	<div class="btn-group"></div>
+</div>
+
+.btn-group-lg,btn-group-sm,btn-group-xs这些class可应用到整个按钮的大小调整，而不需要对每个按钮进行大小调整
+
+.btn-group-vertical 该class让一组按钮垂直堆叠显示，而不是水平堆叠显示
+
+
+Bootstrap按钮下拉菜单
+只需要简单的在一个.btn-group中放置按钮和下拉菜单即可。也可以使用<span class="caret"></span>来表示作为下拉菜单
+
+分割的按钮下拉菜单
+分割的按钮下拉菜单使用与下拉菜单按钮大致相同，但是对下拉菜单添加了原始的功能。分割按钮的左边是原始的功能，右边是显示下拉菜单的切换。
+
