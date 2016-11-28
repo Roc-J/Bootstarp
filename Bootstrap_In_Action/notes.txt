@@ -306,4 +306,18 @@ Bootstrap也提供了一个用于共享标记和状态的帮助器类
 添加class .nav-tabs
 添加带有.dropdown-menu class的无序列表
 
+Bootstrap导航栏
+导航栏是一个很好的功能，是Bootstrap网站的一个突出特点。
+导航栏作为导航页头的响应式基础组件。导航栏在移动设备的视图中是折叠的，随着可用视口宽度的增加，导航栏也会水平展开。
+
+默认的导航栏
+创建一个默认的导航栏的步骤如下:
+向<nav>标签添加class .navbar、.navbar-default
+向上面的元素添加 role="navigation"，有助于增加可访问性
+向<div>元素添加一个标题class .navbar-header，内部包含了带有class .nav，.navbar-nav的无序列表即可
+
+为了给导航栏添加响应式特性，您要折叠的内容必须包裹在带有class .collapse、 .navbar-collapse的<div>中
+折叠起来的导航栏实际上有一个带有class .nav-toggle及两个data-元素的按钮
+第一个是data-toggle，用于告诉JavaScript需要对按钮做什么，
+第二个是data-target，指示要切换到哪一个元素，三个带有class .icon-bar的<span>创建所谓的汉堡按钮。这些会切换为 .nav-collapse<div>中的元素。
 
