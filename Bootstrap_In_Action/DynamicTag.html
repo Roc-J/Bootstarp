@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>动态标签</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h2>动态标签</h2>
+		<p>
+			<strong>提示：</strong>与.tab-pane和data-toggle="tab"(data-toggle="pill")一同使用，设置标签页对应的内容随标签的切换而更改
+		</p>
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#home">首页</a></li>
+			<li><a data-toggle="tab" href="#menu1">菜单1</a></li>
+			<li><a data-toggle="tab" href="#menu2">菜单2</a></li>
+			<li><a data-toggle="tab" href="#menu3">菜单3</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div id="home" class="tab-pane fade in active">
+				<h3>首页</h3>
+				<p>我承认这是第一次有意识的构写~~~</p>
+			</div>
+
+			<div id="menu1" class="tab-pane fade">
+				<h3>菜单1</h3>
+				<p>
+					这是菜单 1 显示的内容。这是菜单 1 显示的内容。这是菜单 1 显示的内容.
+				</p>
+			</div>
+
+			<div id="menu2" class="tab-pane fade">
+				<h3>菜单2</h3>
+				<p>
+					这是菜单 2 显示的内容。这是菜单 2 显示的内容。这是菜单 2 显示的内容.
+				</p>
+			</div>
+
+			<div id="menu3" class="tab-pane fade">
+				<h3>菜单3</h3>
+				<p>
+					这是菜单 3 显示的内容。这是菜单 3 显示的内容。这是菜单 3 显示的内容.
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
