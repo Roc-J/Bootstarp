@@ -354,3 +354,15 @@ class .navbar-static-top
 
 倒置的导航栏
 class .navbar-inverse
+
+Bootstrap面包屑导航(Breadcrumbs)是一种基于网站层次信息的显示方式。以博客为例，面包屑导航可以显示发布日期，类别或标签。它们表示当前页面在导航层次结构内的位置。
+
+Bootstrap中的面包屑导航(Breadcrumbs)是一个简单的带有.breadcrumb class的无序列表。分隔符会通过CSS(bootstrap.min.css)中下面所示的class自动被添加
+
+Bootstrap分页
+Bootstrap支持的分页特性。分页（Pagination）是一种无序列表
+.pagination 在页面上显示分页
+.disabled,.active 自定义链接
+.pagination-lg,.pagination-sm获取不同大小的项
+
+翻页（Pager）
