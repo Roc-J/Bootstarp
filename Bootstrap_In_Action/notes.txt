@@ -321,3 +321,36 @@ Bootstrap导航栏
 第一个是data-toggle，用于告诉JavaScript需要对按钮做什么，
 第二个是data-target，指示要切换到哪一个元素，三个带有class .icon-bar的<span>创建所谓的汉堡按钮。这些会切换为 .nav-collapse<div>中的元素。
 
+导航栏中的表单
+使用.navbar-form class这确保了表单适当的垂直对齐和在较窄的视口中折叠的行为。使用对齐方式选项来决定导航栏中的内容放置在哪里
+<nav>标签定义导航栏
+	<div>内容
+		<navbar-header>
+		<navbar-form>
+
+
+导航栏中的按钮
+使用class .navbar-btn向不在<form>中的<button>元素添加按钮，按钮在导航栏上垂直居中。.navbar-btn可被使用在<a>和<input>元素上。
+
+导航栏中的文本
+在导航栏中包含文本字符串，请使用class .navbar-text。这通常与<p>标签一起使用，确保适当的前导和颜色。
+
+结合图标的导航链接
+在常规的导航栏导航组件内使用图标，那么请使用class glyphicon glyphicon-* 来设置图标
+
+
+组件对齐方式
+使用实用工具class .navbar-left或.navbar-right向左或向右对齐导航栏中的导航链接、表单、按钮或文本这些组件。这两个class都会在指定的方向上添加CSS浮动
+
+
+固定到顶部
+Bootstrap导航栏可以动态定位，默认情况下，它是块级元素，它是基于在HTML中放置的位置定位的。通过一些帮助器类，您可以把它放置在页面的顶部或者底部，或者可以让它成为随着页面一起滚动的静态导航栏
+
+固定到底部
+class .navbar-fixed-bottom
+
+静态的顶部
+class .navbar-static-top
+
+倒置的导航栏
+class .navbar-inverse
