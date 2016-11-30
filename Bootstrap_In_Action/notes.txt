@@ -374,5 +374,28 @@ Bootstrap徽章Badges
 激活导航状态
 可以在激活状态的胶囊式导航和列表导航中放置徽章
 通过使用<span class="badge">来激活
+Bootstrap 超大屏幕(Jumbotron)
+Bootstrap 支持的另一个特性，超大屏幕(Jumbotron)，顾名思义就是该组件可以增加标题的大小，并为登录页面内容添加更多的外边距(margin)，使用超大屏幕的步骤如下:
+1. 创建一个带有class .jumbotron的容器<div>
+2. 除了更大的<h1>，字体粗细font-weight被减为200
+
+为了获得占用全部宽度且不带圆角的超大屏幕，请在所有的.container class外使用.jumbotron class 
 
 
+Bootstrap页面标题（Page Header）
+页面标题（page header）是个不错的功能，它会在网页标题四周添加适当的间距，当一个网页中有多个标题且每个标题之间需要添加一定的间距，页面标题这个功能就显得特别有用。如需使用页面标题(Page Header)，请你把标题放置在 class .page-header的<div>中
+
+Bootstrap缩略图
+大多数站点都需要在网格中布局图像、视频、文本等
+Bootstrap通过缩略图为此提供了一种简便的方式。使用Bootstrap创建缩略图的步骤:
+1. 在图像周围添加带有class .thumbnail的<a>标签
+2. 这会添加四个像素的内边距(padding)和一个灰色的边框
+3. 当鼠标悬停在图像上，会动画显示出图像的轮廓
+
+
+添加自定义的内容
+现在我们有了一个基本的缩略图，我们可以向缩略图添加各种HTML内容，比如标题，段落或者按钮，具体步骤如下:
+
+1. 把带有class.thumbnail的<a>标签改为<div>
+2. 在该<div>内，可以添加任何你想要添加的东西。由于这是一个<div>，我们可以使用默认的基于span的命名规则来调整大小
+3. 如果想要给多个图像进行分组，请把它们放置在一个无序列表中，且每个列表项向左浮动
