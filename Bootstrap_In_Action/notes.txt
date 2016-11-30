@@ -366,3 +366,13 @@ Bootstrap支持的分页特性。分页（Pagination）是一种无序列表
 .pagination-lg,.pagination-sm获取不同大小的项
 
 翻页（Pager）
+Bootstrap徽章Badges
+徽章与标签相似，主要的区别在于徽章的边角更加圆润。
+徽章主要用于突出显示新的或未读的项。如需使用徽章，使用<span class="badge">添加到链接，bootstrap导航等这些元素中
+
+
+激活导航状态
+可以在激活状态的胶囊式导航和列表导航中放置徽章
+通过使用<span class="badge">来激活
+
+
