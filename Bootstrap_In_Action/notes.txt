@@ -433,3 +433,22 @@ Bootstrap进度条
 3. 添加一个带有百分比表示的宽度的style属性，例如style="60%";表示进度条在60%的位置
 
 
+交替的进度条
+创建不同样式的进度条：
+1. 添加一个带有class .progress的<div>
+2. 接着，在上面的<div>内，添加一个带有class .progress-bar和class progress-bar-*的空的<div>，其中，*可以是success,info,warning,danger.
+3. 添加一个带有百分比表示的宽度style属性，例如style="60%"
+
+条纹的进度条
+创建一个条纹的进度条步骤如下:
+1. 添加一个带有class .progress和.progress-striped的<div>
+2. 在上面的<div>内，添加一个带有class .progress-bar 和class progress-bar-*的空的<div>，其中，*可以是success,info ,warning ,danger
+3. 添加一个带有百分比的style属性 
+
+动画的进度条
+1. 创建一个带有class .progress和.progress-striped的<div>。同时添加class .active
+2. 接着，在上面的<div>内，添加一个带有class .progress-bar的<div>
+3. 添加一个带有百分比的style属性
+
+堆叠的进度条
+可以堆叠多个进度条，把多个进度条放置在相同的.progress中可以实现
