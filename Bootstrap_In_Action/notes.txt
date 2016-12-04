@@ -363,6 +363,7 @@ Bootstrap分页
 Bootstrap支持的分页特性。分页（Pagination）是一种无序列表
 .pagination 在页面上显示分页
 .disabled,.active 自定义链接
+
 .pagination-lg,.pagination-sm获取不同大小的项
 
 翻页（Pager）
@@ -452,3 +453,20 @@ Bootstrap进度条
 
 堆叠的进度条
 可以堆叠多个进度条，把多个进度条放置在相同的.progress中可以实现
+
+
+Bootstrap多媒体对象(Media object)
+Bootstrap中的多媒体对象(Media Object)。这些抽象的对象样式用于创建各种各样的组件(比如:博客评论)，我们可以在组件中使用图文混排，图像可以左对齐或者右对齐，媒体对象可以用更少的代码来实现媒体对象与文字的混排
+
+媒体对象轻量标记，易于扩展的特性是通过简单的标记应用class来实现的，
+有两种方式可以来设置媒体的对象：
+1. .media 该class对象允许将媒体对象里的多媒体(图像，视频，音频)浮动到内容区块的左边或者右边
+2. .media-list 如果你需要一个列表，各项内容是无序列表的一部分，可以使用该class，可用于评论列表与文章列表
+
+
+Bootstrap列表组
+列表组件用于以列表的形式呈现复杂的和自定义的内容。创建一个基本的列表组的步骤如下：
+1. 向元素<ul>添加class.list-group
+2. 向<li>添加.list-group-item
+
+
