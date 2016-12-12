@@ -470,3 +470,28 @@ Bootstrap列表组
 2. 向<li>添加.list-group-item
 
 
+向列表组添加徽章
+可以向任意的列表项添加徽章组件，它会自动定位到右边。只需要在<span class="badge">即可
+
+向列表组添加链接
+通过使用锚标签代替列表项，可以向列表组添加链接。使用<div>代替<ul>
+
+可以向上面已添加链接的列表组件添加任意的HTML内容
+
+Bootstrap面板(Panels)
+Bootstrap面板(Panels)。面板组件用于把DOM组件插到一个盒子里，创建一个基本的面板，只需要向<div>元素添加class .panel和class .panel-default即可。
+
+面板脚注
+可以在面板中添加脚注，只需要把按钮或者副文本放在带有class .panel-footer的<div>中即可。下面的实例演示了这点:
+
+带语境色彩的面板
+使用语境状态类 panel-primary,panel-success,panel-info,panel-warning,panel-danger 来设置带语境色彩的面板
+
+带表格的面板
+为了在面板中创建一个无边框的表格，可以在面板中使用class .table .假设有个<div>包含.panel-body，可以向表格的顶部添加额外的边框用来分割。如果没有包含.panel-body的<div>，则组件会无中断地从面板头部移动到表格。
+
+带列表组的面板
+可以在任何面板中包含列表组，通过在<div>元素中添加 .panel和.panel-default类来创建面板，并在面板中添加列表组。
+
+尺寸大小
+可以使用well well-lg 或者well-sm来改变Well的尺寸大小。这两个类会影响到内边距(padding)，根据使用的类，Well会显示得更大或者更小。
